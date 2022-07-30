@@ -8,7 +8,7 @@ namespace Ejemplo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-           /*  Usuario _Usuario;
+            Usuario _Usuario;
             _Usuario = new Usuario();
             _Usuario.Nombre = "Alex";
             _Usuario.Edad = 22;
@@ -19,15 +19,15 @@ namespace Ejemplo
             _Usuario.Apellido="xul";
             _Usuario.Contrasenia="holamundo";
              Console.WriteLine(_Usuario.Info());
-             Console.WriteLine("ingrese su nombre"); */
+             Console.WriteLine("ingrese su nombre");
 
-             /* string Nombre=Console.ReadLine();
+             string Nombre=Console.ReadLine();
              Console.WriteLine("ingrese su edad");
              int Edad = int.Parse(Console.ReadLine());
             
-            Usuario _Usuario1=new Usuario(Nombre,"XUL",Edad,"ALEX@gmial.com","holammundo");
+            Usuario _Usuario1=new Usuario(Nombre,"XUL",Edad,"ALEX@gmial.com","holammundo",null);
             
-            Console.WriteLine(_Usuario1.Info()); */
+            Console.WriteLine(_Usuario1.Info()); 
             Telefono[]Telefonos=new Telefono[]{
                 new Telefono{CodigoPais= 12,Numero= "9992658918"},
                 new Telefono{CodigoPais= 52,Numero= "9999999999"},
